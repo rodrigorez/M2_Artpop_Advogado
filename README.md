@@ -20,16 +20,21 @@ Nesta materia, vocês irão aprender a criar projetos digitais, focando no desig
 
 # Calendario:
 
-## 7/8 apresentações ok
+## 6/8 apresentações ok
  
-## 14/8 exploração html ok
+## 13/8 exploração html ok
 
-## 21/8 definições:
+## 20/8 definições:
 - temas dos sites
 - definição de grupos
 - Explicação dos procedimentos
 
-## 28/8 Site em html
+## 27/8 Exploração de html e apresentação de github
+
+## 03/9 Redefinição de procedimentos do github
+- criação de projetos no github
+- organização dos grupos
+- inicio do desenvolvimento
 
 Tarefas para todos os grupos 
 Implementar a estrutura básica do HTML5, incluindo as tags.
