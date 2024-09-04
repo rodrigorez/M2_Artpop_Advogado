@@ -1,4 +1,4 @@
-# grupoM2_Advogado
+# M2_Artpop_Advogado
 
 # Projeto
 
