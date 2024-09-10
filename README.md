@@ -36,6 +36,11 @@ Nesta materia, vocês irão aprender a criar projetos digitais, focando no desig
 - organização dos grupos
 - inicio do desenvolvimento
 
+## 10/9 Rotação dos grupos
+- video sobre grid
+- rotação dos grupos
+- troca de infos entre grupos e desenvolvimento
+
 Tarefas para todos os grupos 
 Implementar a estrutura básica do HTML5, incluindo as tags.
 
@@ -55,6 +60,8 @@ Tag representa a raiz de um documento HTML.
 
 ### Estruturar o conteúdo com as tags semânticas  
 #### [header](https://www.w3schools.com/tags/tag_header.asp) 
+
+#### [a](https://www.w3schools.com/tags/tag_a.asp)
 
 #### [nav](https://www.w3schools.com/tags/tag_nav.asp)
 
@@ -95,4 +102,3 @@ Tag representa a raiz de um documento HTML.
 #### [ul](https://www.w3schools.com/tags/tag_ul.asp)
 
 #### [!-- texto --](https://www.w3schools.com/tags/tag_comment.asp)
-
