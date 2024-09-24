@@ -19,7 +19,7 @@ img {
   margin-right: auto;}
 
 nav {float: center;
-  width: 95%;
+  width: 100%;
   height: 10%;
   background: #3A465C;
   padding: 0%;}
@@ -28,8 +28,7 @@ article {float: center;
   padding: 10%;
   width: 40%;
   background-color: #3A465C;
-  height: 30%;
-  }
+  height: 30%;}
   
     .button {
       background-color: #D2BEB0;
@@ -40,8 +39,8 @@ article {float: center;
       width: 80%;
       transition: background-color 0.3s ease;
       justify-content: center;
-	  align-items: center;
-      margin-bottom: 5%;}
+      margin-bottom: 5%;
+      display: flex;}
 
     .button:hover {
       background-color: #93796F;}
@@ -51,10 +50,10 @@ article {float: center;
       margin-top: 2%;
       background-color: #ecf0f1;
       padding: 5%;
-      border-radius: 5%;
+      border-radius: 0%;
       transition: max-height 0.5s ease;
       justify-content: center;
-align-items: center;}
+	   align-items: center;}
   </style>
 </head>
 <body>
@@ -131,8 +130,8 @@ Alameda Santos, n° 1165
 Cerqueira César | São Paulo | SP
 CEP 01419-002
   </div>
-  
-  <script>
+
+<script>
     function toggleText(button) {
       // Selecionar o texto associado ao botão clicado
       var text = button.nextElementSibling;
