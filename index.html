@@ -1,150 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exemplo de Vários Botões com Texto Oculto</title>
   <style>
- body {
-  background-color: #3A465C;}
-
-div.a {
-  text-align: center;
-  justify-content: center;
-  align-items: center;}
-  
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;}
-  
-a {color: #000000;}
-
-nav {
-  width: 100%;
-  height: 10%;
-  background: #3A465C;
-  padding: 0%;}
-  
-article {float: center;
-  padding: 10%;
-  width: 80%;
-  background-color: #3A465C;
-  height: 30%;}
-  
+    body {
+      background-color: #3A465C;
+      color: #D2BEB0;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      text-align: center;
+      background: #3A465C;
+      padding: 1rem 0;
+    }
+    img {
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 1.7rem;
+    }
+    article {
+      padding: 2rem;
+      background-color: #3A465C;
+      max-width: 800px;
+      margin: 0 auto;
+    }
     .button {
       background-color: #D2BEB0;
       color: white;
-      padding: 10%;
+      padding: 1rem;
       cursor: pointer;
       text-align: center;
-      width: 80%;
+      margin: 1rem 0;
       transition: background-color 0.3s ease;
-      justify-content: center;
-      margin-bottom: 5%;
-      display: flex;}
-
+    }
     .button:hover {
-      background-color: #93796F;}
-
+      background-color: #93796F;
+    }
     .hidden-text {
       display: none;
-      margin-top: 2%;
+      margin-top: 1rem;
       background-color: #ecf0f1;
-      padding: 5%;
-      border-radius: 0%;
-      transition: max-height 0.5s ease;
-      justify-content: center;
-	   align-items: center;}
+      padding: 1rem;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
-<section>
-  <nav>
-    <ul>
-    <figure>
-  <img src="https://i.postimg.cc/K8Pc6SY2/Sem-t-tulo-2.jpg" alt="Trulli" style="width:50%">
-</figure>
-<div class="a">
-<h1 style="color:#D2BEB0;font-size:250%;"> Fernanda Silva </h1>
-    <p  style="color:#D2BEB0;font-size:170%;"> OAB: 204200 </p></div>
-</ul>
-  </nav>
-   <article>
 
-  <div class="button" onclick="toggleText(this)">
-    Biografia
-  </div>
+<nav>
+  <img src="https://i.postimg.cc/K8Pc6SY2/Sem-t-tulo-2.jpg" alt="Fernanda Silva">
+  <h1>Fernanda Silva</h1>
+  <h2>OAB: 204200</h2>
+</nav>
+
+<article>
+  <div class="button" onclick="toggleText(this)">Biografia</div>
   <div class="hidden-text">
-    Fernanda Silva é uma advogada dedicada com mais de 10 anos de experiência em Direito Civil e Empresarial. Graduada em Direito pela Universidade de São Paulo (USP) e com uma especialização em Direito Contratual pela Fundação Getulio Vargas (FGV), Maria Fernanda combina um sólido conhecimento acadêmico com uma prática jurídica eficaz.
-    <br>
-     <br>
-Sua carreira é marcada pela defesa bem-sucedida de interesses de clientes em litígios complexos, reestruturações empresariais e negociações contratuais. Ela é conhecida por sua abordagem estratégica e atenção aos detalhes, sempre visando soluções práticas e inovadoras para os desafios jurídicos enfrentados por seus clientes.
- <br>
-  <br>
-Fernanda também é ativa em sua comunidade, oferecendo palestras e workshops sobre temas jurídicos relevantes e participando de projetos de pro bono. Sua paixão pelo direito e compromisso com a justiça fazem dela uma profissional respeitada e confiável no cenário jurídico.
- <br>
-  <br>
-Além de sua prática profissional, Fernanda é uma ávida leitora e gosta de viajar, o que a ajuda a manter uma perspectiva ampla e enriquecedora sobre o mundo e o direito.
+    Fernanda Silva é uma advogada dedicada com mais de 10 anos de experiência em Direito Civil e Empresarial. Graduada em Direito pela Universidade de São Paulo (USP) e com uma especialização em Direito Contratual pela Fundação Getulio Vargas (FGV), Fernanda combina um sólido conhecimento acadêmico com uma prática jurídica eficaz.
+<br><br>
+    Sua carreira é marcada pela defesa bem-sucedida de interesses de clientes em litígios complexos, reestruturações empresariais e negociações contratuais. Ela é conhecida por sua abordagem estratégica e atenção aos detalhes, sempre visando soluções práticas e inovadoras para os desafios jurídicos enfrentados por seus clientes.
+<br><br>
+    Fernanda também é ativa em sua comunidade, oferecendo palestras e workshops sobre temas jurídicos relevantes e participando de projetos de pro bono. Sua paixão pelo direito e compromisso com a justiça fazem dela uma profissional respeitada e confiável no cenário jurídico.
+<br><br>
+    Além de sua prática profissional, Fernanda é uma ávida leitora e gosta de viajar, o que a ajuda a manter uma perspectiva ampla e enriquecedora sobre o mundo e o direito.
   </div>
 
-  <div class="button" onclick="toggleText(this)">
-    Casos
-  </div>
+  <div class="button" onclick="toggleText(this)">Casos</div>
   <div class="hidden-text">
- <b> Reestruturação Empresarial:</b> Fernanda atuou na reestruturação de uma empresa de médio porte do setor de tecnologia, ajudando a negociar novos termos com credores e a implementar um plano de recuperação judicial. Sua atuação foi crucial para evitar a falência e garantir a continuidade das operações da empresa.
-<br>
-<br>
-<b>Litígios Contratuais Complexos:</b> Ela representou uma multinacional em uma disputa contratual envolvendo cláusulas de exclusividade e danos materiais significativos. A resolução do caso envolveu negociações intensas e um processo de mediação que resultou em um acordo favorável para seu cliente.
-<br>
-<br>
-<b>Proteção de Propriedade Intelectual:</b> Fernanda assessorou uma startup de biotecnologia na proteção de suas patentes e marcas registradas, enfrentando um caso de infração de propriedade intelectual que envolveu a concorrência desleal. A vitória no tribunal garantiu que a startup pudesse continuar a inovar sem a ameaça de imitação não autorizada.
-<br>
-<br>
-<b>Defesa em Ação de Responsabilidade Civil:</b> Ela defendeu um grupo de investidores em uma ação de responsabilidade civil movida contra uma empresa de consultoria financeira, acusada de negligência e má conduta. O resultado favorável incluiu a obtenção de uma compensação significativa para os investidores.
-<br>
-<br>
-<b>Consultoria em Contratos Internacionais:</b> Fernanda prestou consultoria jurídica para uma empresa exportadora sobre contratos internacionais de fornecimento e distribuição, abordando questões relacionadas a cláusulas de arbitragem e regulamentações internacionais. Seu trabalho assegurou que a empresa estivesse em conformidade com as leis e práticas internacionais.
+    <b>Reestruturação Empresarial:</b> Fernanda atuou na reestruturação de uma empresa de médio porte do setor de tecnologia, ajudando a negociar novos termos com credores e a implementar um plano de recuperação judicial. Sua atuação foi crucial para evitar a falência e garantir a continuidade das operações da empresa.
+
+    <br><br>
+    <b>Litígios Contratuais Complexos:</b> Ela representou uma multinacional em uma disputa contratual envolvendo cláusulas de exclusividade e danos materiais significativos. A resolução do caso envolveu negociações intensas e um processo de mediação que resultou em um acordo favorável para seu cliente.
+
+    <br><br>
+    <b>Proteção de Propriedade Intelectual:</b> Fernanda assessorou uma startup de biotecnologia na proteção de suas patentes e marcas registradas, enfrentando um caso de infração de propriedade intelectual que envolveu a concorrência desleal. A vitória no tribunal garantiu que a startup pudesse continuar a inovar sem a ameaça de imitação não autorizada.
+
+    <br><br>
+    <b>Defesa em Ação de Responsabilidade Civil:</b> Ela defendeu um grupo de investidores em uma ação de responsabilidade civil movida contra uma empresa de consultoria financeira, acusada de negligência e má conduta. O resultado favorável incluiu a obtenção de uma compensação significativa para os investidores.
+
+    <br><br>
+    <b>Consultoria em Contratos Internacionais:</b> Fernanda prestou consultoria jurídica para uma empresa exportadora sobre contratos internacionais de fornecimento e distribuição, abordando questões relacionadas a cláusulas de arbitragem e regulamentações internacionais. Seu trabalho assegurou que a empresa estivesse em conformidade com as leis e práticas internacionais.
   </div>
 
-<div class="button" onclick="toggleText(this)">
-    Contatos
-  </div>
+  <div class="button" onclick="toggleText(this)">Contatos</div>
   <div class="hidden-text">
-<p><a href="default.asp" target="_blank">E-mail</a></p>
-<p><a href="default.asp" target="_blank">LinkedIn</a></p>
-<p><a href="default.asp" target="_blank">Instagram</a></p>
-<p><a href="default.asp" target="_blank">WhatsApp</a></p>
-Localização:
-<br>
-Alameda Santos, n° 1165
-Cerqueira César <br> 
-São Paulo | SP
-CEP 01419-002
+    <p><a href="mailto:email@example.com">E-mail</a></p>
+    <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+    <p><a href="https://www.instagram.com" target="_blank">Instagram</a></p>
+    <p><a href="https://wa.me/5511999999999" target="_blank">WhatsApp</a></p>
+    Localização:
+    <br>Alameda Santos, n° 1165, Cerqueira César, São Paulo | SP, CEP 01419-002
   </div>
-     </article>
+</article>
 
 <script>
-    function toggleText(button) {
-      // Selecionar o texto associado ao botão clicado
-      var text = button.nextElementSibling;
+  function toggleText(button) {
+    const text = button.nextElementSibling;
+    const allTexts = document.querySelectorAll('.hidden-text');
 
-      // Verificar se o texto associado está atualmente visível
-      var isTextVisible = text.style.display === "block";
+    allTexts.forEach(t => t.style.display = 'none');
 
-      // Ocultar todos os textos
-      var allTexts = document.querySelectorAll('.hidden-text');
-      allTexts.forEach(function(t) {
-        t.style.display = "none";
-      });
-
-      // Se o texto associado não estava visível, exibi-lo
-      if (!isTextVisible) {
-        text.style.display = "block";
-      }
+    if (text.style.display === 'block') {
+      text.style.display = 'none';
+    } else {
+      text.style.display = 'block';
     }
-  </script>
+  }
+</script>
 
 </body>
 </html>
